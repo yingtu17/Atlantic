@@ -12,13 +12,16 @@
 			return {
 				product: [
 					{
-						imgSrc: "http://www.py3study.com/Public/images/article/thumb/random/158.jpg",
+						imgSrc: "https://cdn.pixabay.com/photo/2014/10/22/17/50/bar-498420_960_720.jpg",
 					},
 					{
-						imgSrc: "http://www.py3study.com/Public/images/article/thumb/random/159.jpg",
+						imgSrc: "https://cdn.pixabay.com/photo/2022/09/20/05/44/wine-7467085_960_720.jpg",
 					},
 					{
-						imgSrc: "http://www.py3study.com/Public/images/article/thumb/random/160.jpg",
+						imgSrc: "https://cdn.pixabay.com/photo/2014/07/31/21/37/bar-406884_960_720.jpg",
+					},
+					{
+						imgSrc: "https://cdn.pixabay.com/photo/2015/07/23/19/16/alcohol-857380_960_720.jpg",
 					},
 				],
 			};
