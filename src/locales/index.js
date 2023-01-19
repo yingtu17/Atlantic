@@ -1,13 +1,15 @@
 import { createI18n } from "vue-i18n";
 
-import ru from "./ru.json";
+import kz from "./kz.json"
+import en from "./en.json";
 import zh from "./zh.json";
 
 const i18n = createI18n({
-	locale: "ru",
+	locale: "kz",
 	messages: {
+		kz: kz,
 		zh: zh,
-		ru: ru,
+		en: en,
 	},
 });
 

@@ -1,13 +1,15 @@
 <template>
 	<nut-cell>
-		<div class=" w-full flex justify-between">
+		<div class=" w-full flex items-center justify-between">
 			<span  @click="handleClick3">
 				<label><nut-icon name="horizontal-n"></nut-icon></label>
 			</span>
             <span class="">
-                Atlantic
+				{{ $t('username') }}
+                <!-- Atlantic -->
             </span>
-            <span class="">
+            <span class=" flex items-center gap-4">
+				<LanSwitching />
                 <AudioVue />
             </span>
 		</div>
@@ -36,10 +38,12 @@
 <script>
 	import { reactive, toRefs } from "vue";
     import AudioVue from "./Audio.vue";
+	import LanSwitching from "./LanSwitching.vue";
 
 	export default {
         components:{
             AudioVue,
+			LanSwitching
         },
 		setup() {
 			const state = reactive({
@@ -77,3 +81,5 @@
 		},
 	};
 </script>
+<style scoped>
+</style>
