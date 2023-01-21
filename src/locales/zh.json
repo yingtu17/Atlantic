@@ -1,3 +1,7 @@
 {
-	"language": "语言"
+	"language": "语言",
+	"footer": {
+		"hours": "时间",
+		"monday": " 周一 "
+	}
 }

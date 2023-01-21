@@ -1,3 +1,7 @@
 {
-	"language": "language"
+	"language": "language",
+	"footer": {
+		"hours": "HOURS",
+		"monday": "MON"
+	}
 }

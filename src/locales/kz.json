@@ -1,3 +1,7 @@
 {
-	"language": "тіл"
+	"language": "тіл",
+	"footer": {
+		"hours": "Уақыт",
+		"monday": "дүйсенбі"
+	}
 }
