@@ -7,21 +7,27 @@
 </template>
 <script>
 	import { reactive, toRefs } from "vue";
+	
+	import alco1 from "../assets/img/alco1.jpg"
+	import alco2 from "../assets/img/alco2.jpg"
+	import alco3 from "../assets/img/alco3.jpg"
+	import alco4 from "../assets/img/alco4.jpg"
+
 	export default {
 		data() {
 			return {
 				product: [
 					{
-						imgSrc: "https://cdn.pixabay.com/photo/2014/10/22/17/50/bar-498420_960_720.jpg",
+						imgSrc: alco1,
 					},
 					{
-						imgSrc: "https://cdn.pixabay.com/photo/2022/09/20/05/44/wine-7467085_960_720.jpg",
+						imgSrc: alco2,
 					},
 					{
-						imgSrc: "https://cdn.pixabay.com/photo/2014/07/31/21/37/bar-406884_960_720.jpg",
+						imgSrc: alco3,
 					},
 					{
-						imgSrc: "https://cdn.pixabay.com/photo/2015/07/23/19/16/alcohol-857380_960_720.jpg",
+						imgSrc: alco4,
 					},
 				],
 			};

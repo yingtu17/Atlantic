@@ -12,7 +12,18 @@
 		</div>
 	</nut-cell>
 	<nut-popup position="left" v-model:visible="show3" :style="{ width, height }">
-		112423
+		<nut-side-navbar>
+			<nut-sub-side-navbar title="智能城市AI" ikey="6">
+				<nut-sub-side-navbar title="人体识别1" ikey="9">
+					<nut-side-navbar-item ikey="10" title="人体检测1"></nut-side-navbar-item>
+					<nut-side-navbar-item ikey="11" title="细粒度人像分割1"></nut-side-navbar-item>
+				</nut-sub-side-navbar>
+				<nut-sub-side-navbar title="人体识别2" ikey="12">
+					<nut-side-navbar-item ikey="13" title="人体检测2"></nut-side-navbar-item>
+					<nut-side-navbar-item ikey="14" title="细粒度人像分割2"></nut-side-navbar-item>
+				</nut-sub-side-navbar>
+			</nut-sub-side-navbar>
+		</nut-side-navbar>
 	</nut-popup>
 </template>
 <script>
@@ -26,6 +37,7 @@
 			LanSwitching,
 		},
 		setup() {
+
 			const state = reactive({
 				show3: false,
 				width: "80%",
@@ -37,12 +49,9 @@
 				state.show3 = true;
 			};
 
-			const handleClick4 = (msg) => {};
-
 			return {
 				...toRefs(state),
 				handleClick3,
-				handleClick4,
 			};
 		},
 	};
